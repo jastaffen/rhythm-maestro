@@ -1,0 +1,28 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 45px;
+    left: 380px;
+    width: 50%;
+}
+
+.pad {
+    border: 1px solid white;
+    background: red;
+    width: 90px;
+    height: 50px;
+    margin: 2px;
+    text-align: center;
+    transition: all 0.07s;
+}
+
+.pad .sound {
+    
+    color: white;
+}
+
+.playing {
+    border: 1px solid yellow;
+    transform: scale(1.1)
+}

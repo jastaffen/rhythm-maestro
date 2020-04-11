@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    background: black;
+    border: 10px solid rgb(96, 67, 31);
+}
+
+.inner-rim {
+    border: 10px solid black;
+}
+
+main {
+    border: 5px solid #C19A6B;
+    height: 500px;
+}
+
+h1 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.logo-container {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 180px;
+}
+
+.logo-container h1 {
+    position: absolute;
+    left: -50px;
+    letter-spacing: 0.3em;
+    font-size: 25px;
+    width: 300px;
+}
+
+.logo {
+    border: 3px solid gray;
+    width: auto;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.maestro:first-child {
+    margin-top: 45px;
+}
+
+.maestro {
+    position: relative;
+    margin-top: 20px;
+    height: 4px;
+    z-index: 10;
+    border: 1px solid gray;
+}
+
+.triangle {
+    content: '';
+    display: inline;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-radius: 0 60px 60px 0 / 0 300px 300px 0;
+}
+
+
+.yellow {
+    background: yellow;
+    width: 130px;
+}
+
+.yellow .triangle {
+    position: absolute;
+    top: -18px;
+    left: 125px;
+    border-right: 40px solid yellow;
+}
+
+.red {
+    background: red;
+    width: 80px;
+}
+
+.red .triangle {
+    position: absolute;
+    top: -18px;
+    left: 50px;
+    border-right: 40px solid red;
+}
+
+.blue {
+    background: lightblue;
+    width: 100px;
+}
+
+.blue .triangle {
+    position: absolute;
+    top: -18px;
+    left: 90px;
+    border-right: 40px solid lightblue;
+}
+
+.name {
+    position: relative;
+    top: 15px;
+    left: 5px;
+    width: 90%;
+    margin: 0 auto;
+    background: gray;
+}
+
+.name h3 {
+    text-align: center;
+    font-style: italic;
+}
+
+
+

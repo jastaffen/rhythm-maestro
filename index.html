@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drum Machine</title>
+        <link type="text/css" rel="stylesheet" href="index.css"  />
+        <link type="text/css" rel="stylesheet" href="drum-machine.css"  />
+        <script src="index.js" async></script>
+    </head>
+
+    <body>
+        <div class="inner-rim">
+            <main>
+
+                <header class="logo-container">
+                    <div class="logo">
+                        <div class="maestro yellow">
+                            <div class="triangle"></div>
+                        </div>
+                        <div class="maestro red">
+                            <div class="triangle"></div>
+                        </div>
+                        <div class="maestro blue">
+                            <div class="triangle"></div>
+                        </div>
+                        <div class="name">
+                            <h3>Maestro</h3>
+                        </div>
+                    </div>
+                    <h1>Rhythm King</h1>
+                </header>
+                <section>
+                    <div data-key="65" class="pad">
+                        <span class="sound">Kick (A)</span>
+                    </div>
+                    <div data-key="83" class="pad">
+                        <span class="sound">Snare (S)</span>
+                    </div>
+                    <div data-key="68" class="pad">
+                        <span class="sound">Hi Hat (D)</span>
+                    </div>
+                    <div data-key="70" class="pad">
+                        <span class="sound">Clave (F)</span>
+                    </div>
+                    <div data-key="71" class="pad">
+                        <span class="sound">Bongo (G)</span>
+                    </div>
+                    <div data-key="72" class="pad">
+                        <span class="sound">Long Cymbal (H)</span>
+                    </div>
+                </section>
+            </main>
+        </div>
+        
+        <audio data-key="65" src="./audio/kick.wav"></audio>
+        <audio data-key="83" src="./audio/snare.wav"></audio>
+        <audio data-key="68" src="./audio/hi-hat.wav"></audio>
+        <audio data-key="70" src="./audio/clave.wav"></audio>
+        <audio data-key="71" src="./audio/bongo.wav"></audio>
+        <audio data-key="72" src="./audio/cymbal.wav"></audio>
+
+    </body>
+</html>
